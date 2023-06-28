@@ -2,7 +2,7 @@ import { BrowserRouter } from "react-router-dom";
 import About from "./components/About";
 import Stars from "./components/canvas/Stars";
 import Contact from "./components/Contact";
-import Experience from "./components/Experience";
+// import Experience from "./components/Experience";
 // import Feedbacks from "./components/Feedbacks";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
@@ -18,7 +18,7 @@ const App = () => {
           <Hero></Hero>
         </div>
         <About></About>
-        <Experience></Experience>
+        {/* <Experience></Experience> */}
         <Tech></Tech>
         <Works></Works>
         {/* <Feedbacks></Feedbacks> */}
