@@ -16,9 +16,51 @@ const Contact = () => {
   });
   const [loading, setLoading] = useState(false);
 
-  const handleChange = (e) => {};
+  const handleChange = (e) => {
+    const { name, value } = e.target;
 
-  const handleSubmit = (e) => {};
+    setForm({ ...form, [name]: value });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setLoading(true);
+
+    // GycJGTofjkTVOMjYT
+    // template_hey7iqf
+    // service_w5rnhfo
+    emailjs
+      .send(
+        import.meta.env.VITE_serviceId,
+        import.meta.env.VITE_templateId,
+        {
+          from_name: form.name + ` email: ${form.email}`,
+          to_name: "Nayeem",
+          from_email: form.email,
+          to_email: "snayeemu2@gmail.com",
+          message: form.message,
+        },
+        import.meta.env.VITE_publicKey
+      )
+      .then(
+        () => {
+          setLoading(false);
+          alert("Thank You. I will get back to you as soon as possible.");
+          setForm({
+            name: "",
+            email: "",
+            message: "",
+          });
+        },
+        (error) => {
+          setLoading(false);
+
+          console.log(error);
+
+          alert("Something went wrong.");
+        }
+      );
+  };
 
   return (
     <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
