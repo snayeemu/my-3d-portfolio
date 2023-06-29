@@ -31,7 +31,18 @@ const Navbar = () => {
             Nayeem <span className="sm:inline hidden">| Web Developer</span>
           </p>
         </Link>
+
         <ul className="list-none hidden sm:flex flex-row gap-10">
+          <li>
+            <a
+              href="https://drive.google.com/file/d/12jeJkAzPbRGAD7Drl2TlWHnDL993Ahjk/view?usp=sharing"
+              className={`text-secondary font-poppins font-medium cursor-pointer text-[16px]`}
+              target={"_blank"}
+              rel="noopener noreferrer"
+            >
+              Resume
+            </a>
+          </li>
           {navLinks.map((link) => (
             <li
               key={link.id}
@@ -57,6 +68,16 @@ const Navbar = () => {
             } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
           >
             <ul className="list-none flex justify-end items-start flex-col gap-4">
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/12jeJkAzPbRGAD7Drl2TlWHnDL993Ahjk/view?usp=sharing"
+                  className={`text-secondary font-poppins font-medium cursor-pointer text-[16px]`}
+                  target={"_blank"}
+                  rel="noopener noreferrer"
+                >
+                  Resume
+                </a>
+              </li>
               {navLinks.map((link) => (
                 <li
                   key={link.id}
