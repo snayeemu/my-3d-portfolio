@@ -7,6 +7,8 @@ import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 import { useRef, useState } from "react";
 
+import { FaFacebook } from "react-icons/fa";
+
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -122,6 +124,17 @@ const Contact = () => {
             {loading ? "Sending..." : "Send"}
           </button>
         </form>
+
+        <div className="flex justify-center items-center gap-2">
+          <p className="text-secondary">Social:</p>
+          <a
+            href="https://www.facebook.com/snayeemu/"
+            target={"_blank"}
+            rel="noopener noreferrer"
+          >
+            <FaFacebook className="text-2xl" />
+          </a>
+        </div>
       </motion.div>
 
       <motion.div
