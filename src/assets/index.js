@@ -2,8 +2,10 @@ import logo from "./logo.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import jsDev from "./jsDev.png";
+import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import live from "./live.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -26,8 +28,10 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
+import sportify from "./sportify.png";
 import jobit from "./jobit.png";
+import vroomVroomToys from "./vroom-vroom-toys.png";
+import findFoodTalents from "./find-food-talents.png";
 import tripguide from "./tripguide.png";
 
 export {
@@ -35,8 +39,10 @@ export {
   backend,
   creator,
   jsDev,
+  mobile,
   web,
   github,
+  live,
   menu,
   close,
   css,
@@ -56,7 +62,9 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
+  sportify,
+  vroomVroomToys,
+  findFoodTalents,
   jobit,
   tripguide,
 };

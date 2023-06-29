@@ -1,5 +1,5 @@
 import {
-  jsDev,
+  mobile,
   backend,
   creator,
   web,
@@ -19,7 +19,9 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
+  sportify,
+  vroomVroomToys,
+  findFoodTalents,
   jobit,
   tripguide,
   threejs,
@@ -47,7 +49,7 @@ const services = [
   },
   {
     title: "React Developer",
-    icon: jsDev,
+    icon: mobile,
   },
   {
     title: "Backend Developer",
@@ -198,9 +200,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Sportify",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A full stack website. Protected and secured User, Instructor and Admin dashboard. Instructors can add courses, users can take courses and Admin can make a user, instructor or admin.",
     tags: [
       {
         name: "react",
@@ -215,11 +217,13 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: sportify,
+    live_site: "https://summer-camp-213b4.web.app/",
+    source_code_link: "https://github.com/snayeemu/sportify-client",
+    git_server_code: "https://github.com/snayeemu/sportify-server",
   },
   {
-    name: "Job IT",
+    name: "Vroom Vroom Toys",
     description:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
@@ -228,37 +232,41 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "mongodb",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: vroomVroomToys,
+    live_site: "https://simple-firebase-da6c3.web.app/",
+    source_code_link: "https://github.com/snayeemu/VroomVroomToys-client",
+    git_server_code: "https://github.com/snayeemu/VroomVroomToys-server",
   },
   {
-    name: "Trip Guide",
+    name: "Find Food Talents",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "mongodb",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "react-bootstrap",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: findFoodTalents,
+    live_site: "https://find-food-talents.web.app/",
+    source_code_link: "https://github.com/snayeemu/find-food-talents-client",
+    git_server_code: "https://github.com/snayeemu/find-food-talents-server",
   },
 ];
 
