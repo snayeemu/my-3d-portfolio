@@ -22,8 +22,6 @@ import {
   sportify,
   vroomVroomToys,
   findFoodTalents,
-  jobit,
-  tripguide,
   threejs,
 } from "../assets";
 
