@@ -4,17 +4,14 @@ import {
   creator,
   web,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   mongodb,
-  git,
+  bootstrap,
   figma,
-  docker,
   meta,
   starbucks,
   tesla,
@@ -22,7 +19,7 @@ import {
   sportify,
   vroomVroomToys,
   findFoodTalents,
-  threejs,
+  firebase,
 } from "../assets";
 
 export const navLinks = [
@@ -73,20 +70,16 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
     name: "React JS",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
     name: "Tailwind CSS",
     icon: tailwind,
+  },
+  {
+    name: "bootstrap",
+    icon: bootstrap,
   },
   {
     name: "Node JS",
@@ -97,20 +90,12 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
     name: "figma",
     icon: figma,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "firebase",
+    icon: firebase,
   },
 ];
 
@@ -200,7 +185,7 @@ const projects = [
   {
     name: "Sportify",
     description:
-      "A full stack website. Protected and secured User, Instructor and Admin dashboard. Instructors can add courses, users can take courses and Admin can make a user, instructor or admin.",
+      "A full stack sports academy website. Instructors can add courses, users can take courses and Admin can make a user, instructor or admin.",
     tags: [
       {
         name: "react",
@@ -223,7 +208,7 @@ const projects = [
   {
     name: "Vroom Vroom Toys",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Website to discover and book chefs. Have login and registration systems, with protected user route. Categorized toy listings, personalized actions.",
     tags: [
       {
         name: "react",
@@ -246,7 +231,7 @@ const projects = [
   {
     name: "Find Food Talents",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A ecommerce website. Seamless login and registration systems. Only logged user can see Recipes. Navbar providing access to the home page, blog, and user profile.",
     tags: [
       {
         name: "react",
